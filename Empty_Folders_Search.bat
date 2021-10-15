@@ -30,8 +30,7 @@ for /f "tokens=4,5delims=. " %%A in ('ver') do (
     )
 )
 for %%A in (s_Index s_Result s_Second) do set %%A=
-set /a Percentage=0, Results=0, Index_1=0, Index_2=0
-%@TITLE%
+set /a Results=0, Index_1=0, Index_2=0
 echo.
 echo  !CYAN!■ Searching for empty folders in "%~dp0" ...
 echo  ├──────────────────────────────────────────────────────────────────────────────
