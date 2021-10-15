@@ -59,7 +59,6 @@ for /f "tokens=1-4delims=:.," %%A in ("!time: =0!") do set /a "t2=(((1%%A*60)+1%
 echo  └──────────────────────────────────────────────────────────────────────────────
 set Percentage=100
 %@TITLE%
-%@SET_S:?=Index_1%
 %@SET_S:?=Seconds%
 echo.
 echo  ■ Scan complited with !Results! empty folder!s_Results! found from !Index_1! indexed folder!s_Index_1! in !Seconds! second!s_Seconds!.
